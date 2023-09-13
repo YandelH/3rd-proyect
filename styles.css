@@ -11,6 +11,7 @@
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
+    padding: 28px;
 }
 
 h2 {
@@ -30,6 +31,7 @@ img{
 
 header{
     display: block;
+    margin-top: 40px;
 }
 
 h1{
@@ -64,7 +66,7 @@ p{
 }
 
 .container{
-    margin: 0 48px;
+    margin: 0 36px;
 }
 
 /* 
@@ -89,7 +91,6 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding:  28px 0;
 }
 
 .nav__logo{
@@ -118,6 +119,7 @@ nav{
 .nav__links {
     display: flex;
     align-items: center;
+    letter-spacing: 0.06em;
 }
 
 li{
@@ -164,10 +166,9 @@ Header
 */ 
 
 .header__title{
-    font-size:48px;
+    font-size:36px;
     color: rgb(26, 32, 44);
     font-weight: 700;
-    padding:  4px 0 0px 0;
 }
 
 .header__description{
@@ -182,7 +183,7 @@ header .row{
 }
 
 .header__para{
-    font-size: 18px;
+    font-size: 16px;
     color: rgb(36, 62, 99);
     margin: 32px 0;
     line-height: 24px;
@@ -192,6 +193,8 @@ header .row{
     position: relative;
     max-width: 448px;
     margin: 40px 0;
+    border-color: rgb(226, 232, 240);
+    color: rgb(226, 232, 240);
 }
 
 .header__input{
@@ -203,6 +206,7 @@ header .row{
     outline: none;
     width: 100%;
     transition: all 300ms ease;
+    color: rgb(226, 232, 240);
 }
 
 .header__btn{
@@ -246,9 +250,81 @@ header .row{
 
 .header__img{
     margin-left: 100px;
+    padding-right: 100px;
     width: 100%;
 }
 
 .header__img--wrapper{
     width: 60%;
 }
+
+/* 
+
+Features
+
+*/ 
+
+main{
+margin-top: 80px;
+}
+
+
+#features{
+    display: flex;
+}
+
+.features__container{
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.features__main--title{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.features__word{
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    --tw-text-opacity: 1;
+}
+
+.features__title{
+    padding-top: 26px;
+    font-size: 50px;
+    text-decoration: bold;
+    letter-spacing: 0.03em;
+}
+
+.features__title--para{
+    padding: 24px 0;
+    font-size: 19px;
+    text-align: center;
+    color: #7C8BA1;
+    line-height: 1.5;
+    max-width: 550px;
+    margin-bottom: 20px;
+}
+
+/*
+
+Services
+
+*/
+
+.services{
+    width: 100%;
+    max-width: 1200px;
+    padding: 80px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.services__container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+ }
