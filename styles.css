@@ -66,7 +66,8 @@ p{
 }
 
 .container{
-    margin: 0 36px;
+    padding: 80px 0;
+    margin: 30px;
 }
 
 /* 
@@ -320,7 +321,7 @@ Services
     max-width: 1200px;
     display: flex;
     flex-wrap: wrap;
-    padding: 0 32px;
+    padding: 0 px;
 }
 
 .services__container{
@@ -360,4 +361,86 @@ Services
     font-size: 18px;
     line-height: 1.7;
     max-width: 225px;
+}
+
+/* 
+
+Quality Work
+
+*/
+
+.qw__container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.qw__main--title{
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.qw__word{
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    --tw-text-opacity: 1;
+}
+
+.qw__title{
+    padding-top: 26px;
+    font-size: 50px;
+    text-decoration: bold;
+    letter-spacing: 0.03em;
+}
+
+.qw__title--para{
+    font-size: 1.12rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    letter-spacing: 0.6px;
+    color: rgb(160, 174, 192);
+    display: flex;
+    align-items: center;
+    padding: 14px 14px 14px 0;
+    margin-top: 8px;
+}
+
+.qw__btn{
+    position: relative;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 140px;
+    height: 50px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(100, 21, 255);
+    color: white;
+    border: none;
+    border-radius: 9999px;
+    font-weight: 700;
+    font-size: 90%;
+    margin-right: 8px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
+.section__wrapper{
+    display: flex;
+    align-items: center;
+    padding: 28px 28px 28px 0;
+}
+
+.qw__img{
+    width: 50%;
 }
